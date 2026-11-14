@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amar-codes25.github.io/vet-clinic/sitemap.xml
