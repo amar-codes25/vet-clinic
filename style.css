@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 8%;
+  background: #0b6b4f;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 80px 8%;
+  text-align: center;
+  background: #e8f5f0;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #0b6b4f;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn.primary {
+  background: #0b6b4f;
+  color: white;
+}
+
+.btn.secondary {
+  background: white;
+  color: #0b6b4f;
+  border: 2px solid #0b6b4f;
+}
+
+.section {
+  padding: 60px 8%;
+}
+
+.section.light {
+  background: #f6f6f6;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #0b6b4f;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+  color: #0b6b4f;
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.trust-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.trust-list li {
+  margin-bottom: 12px;
+}
+
+.page-header {
+  padding: 60px 8%;
+  background: #e8f5f0;
+  text-align: center;
+}
+
+.page-header h1 {
+  color: #0b6b4f;
+  margin-bottom: 12px;
+}
+
+.test-item {
+  max-width: 800px;
+  margin: 0 auto 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.test-item h3 {
+  color: #0b6b4f;
+  margin-bottom: 6px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b6b4f;
+  color: white;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar nav a {
+    margin: 0 8px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
